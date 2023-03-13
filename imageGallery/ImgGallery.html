@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtGallery</title>
+    <link rel="stylesheet"  href="ImgGallery.css">
+
+</head>
+<body>
+    <h2>VIRTUAL ART GALLERY</h2>
+    <div class="whole">
+
+        <div>
+            <img src="vang.jpg" alt="img1" onclick="openImg(this)">
+           <h3> Van Gogh</h3>
+        </div>
+        <div>
+        <img src="paris.jpg" alt="img1" onclick="openImg(this)" >
+        <h3>Paris </h3>
+        </div>
+        <div>
+            <img src="kitten.webp" alt="img1" onclick="openImg(this)">
+            <h3>Kitten</h3>
+        </div>
+        <div>
+        <img src="moon.jpg" alt="img1" onclick="openImg(this)">
+        <h3>Moon</h3>
+        </div>
+        <div>
+            <img src="flowers.jpg" alt="img1" onclick="openImg(this)">
+            <h3>Flower Vase</h3>
+            </div>
+        <div>
+            <img src="tower.jpg" alt="img1" onclick="openImg(this)">
+            <h3>Effiel tower</h3>
+            </div>
+        <div>
+            <img src="cat.jpg" alt="img1" onclick="openImg(this)">
+            <h3>Cat</h3>
+        </div>
+        <div>
+            <img src="butterfly.jpg" alt="img1" onclick="openImg(this)">
+            <h3>Butterfly</h3>
+        </div>
+        <div>
+        <img src="street.jpg" alt="img1" onclick="openImg(this)"> 
+        <h3>Random Street</h3>
+        </div>
+    </div>
+    <div id="full_image" class="full">
+        <div id="selected_img">
+            <span onclick="closeImg()">✖</span>
+        </div>
+    </div>
+    <script src="ImgGallery.js"></script>
+</body>
+</html>
+  
